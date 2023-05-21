@@ -1,0 +1,68 @@
+body {
+  font-size: 0, 875rem;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.container {
+  width: 80vw;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 100%;
+}
+
+.card {
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+}
+.card__img {
+  object-fit: cover;
+  height: auto;
+  width: 100%;
+  max-width: 100px;
+}
+.card__text {
+  flex-basis: 50%;
+}
+.card__price {
+  flex-basis: 15%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.book_sale {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.book_sale__total-price {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.summary__button {
+  width: auto;
+  height: 50px;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: black;
+}

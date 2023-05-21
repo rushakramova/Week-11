@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/style/style.css" />
+  <title>Market Bag</title>
+</head>
+
+<body class="container">
+  <h1 class="title">Корзина</h1>
+  <div class="cards">
+
+    <div class="card">
+      <img class="card__img" src="./assets/images/1.jpg" alt="image1" />
+      <section class="card__text">
+        <h2>Пока течет река, Диана Сеттерфилд</h2>
+        <p>
+          Количество : 1 шт.
+        </p>
+      </section>
+      <div class="card__price">
+        <span class="card__sum" id="firstPrice">1200</span> руб.
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card__img" src="./assets/images/2.png" alt="image2" />
+      <section class="card__text">
+        <h2>Служба доставки книг, Карстен Хенн <br> и Мария Мисник</h2>
+        <p>
+          Количество : 1 шт.
+        </p>
+      </section>
+      <div class="card__price">
+        <span class="card__sum" id="secondPrice">700</span> руб.
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card__img" src="./assets/images/3.png" alt="image3" />
+      <section class="card__text">
+        <h2>Клуб убийств по четвергам, Ричард Осман</h2>
+        <p>
+          Количество : 1 шт.
+        </p>
+      </section>
+      <div class="card__price">
+        <span class="card__sum" id="thirdPrice">670</span> руб.
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="card__img" src="./assets/images/4.png" alt="image4" />
+      <section class="card__text">
+        <h2>Викинги. Тайны истории, Стив Эшби, <br> Элисон Леонард</h2>
+        <p>
+          Количество : 1 шт.
+        </p>
+      </section>
+      <div class="card__price">
+        <span class="card__sum" id="fourthPrice">500</span> руб.
+      </div>
+    </div>
+
+    <div class="book_sale">
+      <button class="summary__button" type="button" id="button" onclick="BookSale()" value="sale20">
+        Использовать купон на скидку 20%
+      </button>
+      <div class="book_sale__result">
+        <h3 class="book_sale__title">Итого</h3>
+        <p class="book_sale__total-price">
+          <span class="book_sale__total-price" id="totalPrice"> </span> руб.
+        </p>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
